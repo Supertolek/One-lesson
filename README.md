@@ -16,3 +16,7 @@ I have a sort of devlog on [discord](https://discord.com/channels/11612964425776
 ## Credits
 
 Credits to [Aywen](https://www.youtube.com/@aywenvideos) for the original idea.
+
+## Downloads
+
+- [v 0.1](https://github.com/Supertolek/One-lesson-download/raw/main/v0/One_lesson_v0-1.zip)
