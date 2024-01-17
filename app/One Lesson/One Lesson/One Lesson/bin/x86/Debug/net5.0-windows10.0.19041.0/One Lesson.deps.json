@@ -1,0 +1,132 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "One Lesson/1.0.0": {
+        "dependencies": {
+          "Microsoft.WindowsAppSDK": "1.0.0-experimental1",
+          "Microsoft.WindowsAppSDK.Foundation": "1.0.0-experimental1",
+          "Microsoft.WindowsAppSDK.InteractiveExperiences": "1.0.0-experimental1",
+          "Microsoft.WindowsAppSDK.WinUI": "1.0.0-experimental1",
+          "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.26"
+        },
+        "runtime": {
+          "One Lesson.dll": {}
+        }
+      },
+      "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.26": {
+        "runtime": {
+          "Microsoft.Windows.SDK.NET.dll": {
+            "assemblyVersion": "10.0.19041.24",
+            "fileVersion": "10.0.19041.26"
+          },
+          "WinRT.Runtime.dll": {
+            "assemblyVersion": "1.6.0.0",
+            "fileVersion": "1.6.4.39141"
+          }
+        }
+      },
+      "Microsoft.WindowsAppSDK/1.0.0-experimental1": {
+        "dependencies": {
+          "Microsoft.WindowsAppSDK.DWrite": "1.0.0-experimental1",
+          "Microsoft.WindowsAppSDK.Foundation": "1.0.0-experimental1",
+          "Microsoft.WindowsAppSDK.InteractiveExperiences": "1.0.0-experimental1",
+          "Microsoft.WindowsAppSDK.WinUI": "1.0.0-experimental1"
+        }
+      },
+      "Microsoft.WindowsAppSDK.DWrite/1.0.0-experimental1": {},
+      "Microsoft.WindowsAppSDK.Foundation/1.0.0-experimental1": {
+        "runtime": {
+          "lib/net5.0-windows10.0.17763.0/Microsoft.ApplicationModel.Resources.Projection.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/lib/native/arm64/Microsoft.WindowsAppSDK.Bootstrap.dll": {
+            "rid": "lib",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/lib/native/x64/Microsoft.WindowsAppSDK.Bootstrap.dll": {
+            "rid": "lib",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/lib/native/x86/Microsoft.WindowsAppSDK.Bootstrap.dll": {
+            "rid": "lib",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Microsoft.WindowsAppSDK.InteractiveExperiences/1.0.0-experimental1": {
+        "runtime": {
+          "lib/net5.0-windows10.0.17763.0/Microsoft.InteractiveExperiences.Projection.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.22431.1000"
+          }
+        }
+      },
+      "Microsoft.WindowsAppSDK.WinUI/1.0.0-experimental1": {
+        "runtime": {
+          "lib/net5.0-windows10.0.18362.0/Microsoft.WinUI.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.2108"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "One Lesson/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.26": {
+      "type": "runtimepack",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.WindowsAppSDK/1.0.0-experimental1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vjCqRR4pl+SRaqRbs/CysQqzeWfnqTk2utIqY3NRJxbc63r9pTH8l0C7Wz1guz5tOmc8/lbhC5gD0L6YLI/maw==",
+      "path": "microsoft.windowsappsdk/1.0.0-experimental1",
+      "hashPath": "microsoft.windowsappsdk.1.0.0-experimental1.nupkg.sha512"
+    },
+    "Microsoft.WindowsAppSDK.DWrite/1.0.0-experimental1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xlzk+Dr7pmhTA0RAtxHf6/TmGua0V8wzx5w57MNGtbrbS2O8CnX3NGh9JAn6lRN/p0d6IVuJFgaCGiEM0tUA7Q==",
+      "path": "microsoft.windowsappsdk.dwrite/1.0.0-experimental1",
+      "hashPath": "microsoft.windowsappsdk.dwrite.1.0.0-experimental1.nupkg.sha512"
+    },
+    "Microsoft.WindowsAppSDK.Foundation/1.0.0-experimental1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HRk953VsjM9JpLIu1Kq1rmu8TbEpcGdxb4ZOjNJV7kBqIGHY7z4MP4BFjzrrrePReBNtaUnRNNv0WSONOq63/w==",
+      "path": "microsoft.windowsappsdk.foundation/1.0.0-experimental1",
+      "hashPath": "microsoft.windowsappsdk.foundation.1.0.0-experimental1.nupkg.sha512"
+    },
+    "Microsoft.WindowsAppSDK.InteractiveExperiences/1.0.0-experimental1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-69Phhhrv0WQA1esNet/vasUw71vx8iXh6L6MfjvrK/nk5PJ2Pa676saeHPShotp5CGGrIPRxXok1BZ/8a3mVLQ==",
+      "path": "microsoft.windowsappsdk.interactiveexperiences/1.0.0-experimental1",
+      "hashPath": "microsoft.windowsappsdk.interactiveexperiences.1.0.0-experimental1.nupkg.sha512"
+    },
+    "Microsoft.WindowsAppSDK.WinUI/1.0.0-experimental1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0IKpmhXQJ3nSyAhu5Td8CWqmbqgLr53KxRJTbIGvXcX10rlw0gFr2bL9kjkVD5KsOioOWLMESEtnHKlQcHXkVA==",
+      "path": "microsoft.windowsappsdk.winui/1.0.0-experimental1",
+      "hashPath": "microsoft.windowsappsdk.winui.1.0.0-experimental1.nupkg.sha512"
+    }
+  }
+}

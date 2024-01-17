@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.windowsappsdk.winui\1.0.0-experimental1\buildTransitive\Microsoft.WindowsAppSDK.WinUI.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.windowsappsdk.winui\1.0.0-experimental1\buildTransitive\Microsoft.WindowsAppSDK.WinUI.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.windowsappsdk.interactiveexperiences\1.0.0-experimental1\build\Microsoft.WindowsAppSDK.InteractiveExperiences.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.windowsappsdk.interactiveexperiences\1.0.0-experimental1\build\Microsoft.WindowsAppSDK.InteractiveExperiences.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.windowsappsdk.foundation\1.0.0-experimental1\build\Microsoft.WindowsAppSDK.Foundation.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.windowsappsdk.foundation\1.0.0-experimental1\build\Microsoft.WindowsAppSDK.Foundation.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.windowsappsdk.dwrite\1.0.0-experimental1\build\Microsoft.WindowsAppSDK.DWrite.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.windowsappsdk.dwrite\1.0.0-experimental1\build\Microsoft.WindowsAppSDK.DWrite.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.windowsappsdk\1.0.0-experimental1\build\Microsoft.WindowsAppSDK.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.windowsappsdk\1.0.0-experimental1\build\Microsoft.WindowsAppSDK.targets')" />
+  </ImportGroup>
+</Project>

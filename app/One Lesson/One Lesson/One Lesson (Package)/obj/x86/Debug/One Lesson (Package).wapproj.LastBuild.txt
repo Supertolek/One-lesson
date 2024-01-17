@@ -1,0 +1,27 @@
+C:\Users\leque\source\repos\One Lesson\One Lesson\One Lesson\bin\x86\Debug\net5.0-windows10.0.19041.0\App.xbf
+C:\Users\leque\source\repos\One Lesson\One Lesson\One Lesson\bin\x86\Debug\net5.0-windows10.0.19041.0\MainWindow.xbf
+C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.22621.0\Redist\Debug\x86\ucrtbased.dll
+C:\Users\leque\source\repos\One Lesson\One Lesson\One Lesson (Package)\Images\SplashScreen.scale-200.png
+C:\Users\leque\source\repos\One Lesson\One Lesson\One Lesson (Package)\Images\LockScreenLogo.scale-200.png
+C:\Users\leque\source\repos\One Lesson\One Lesson\One Lesson (Package)\Images\Square150x150Logo.scale-200.png
+C:\Users\leque\source\repos\One Lesson\One Lesson\One Lesson (Package)\Images\Square44x44Logo.scale-200.png
+C:\Users\leque\source\repos\One Lesson\One Lesson\One Lesson (Package)\Images\Square44x44Logo.targetsize-24_altform-unplated.png
+C:\Users\leque\source\repos\One Lesson\One Lesson\One Lesson (Package)\Images\StoreLogo.png
+C:\Users\leque\source\repos\One Lesson\One Lesson\One Lesson (Package)\Images\Wide310x150Logo.scale-200.png
+C:\Users\leque\source\repos\One Lesson\One Lesson\One Lesson (Package)\bin\x86\Debug\resources.pri
+C:\Users\leque\.nuget\packages\microsoft.windowsappsdk.foundation\1.0.0-experimental1\lib\net5.0-windows10.0.17763.0\Microsoft.ApplicationModel.Resources.Projection.dll
+C:\Users\leque\.nuget\packages\microsoft.windowsappsdk.interactiveexperiences\1.0.0-experimental1\lib\net5.0-windows10.0.17763.0\Microsoft.InteractiveExperiences.Projection.dll
+C:\Users\leque\.nuget\packages\microsoft.windowsappsdk.winui\1.0.0-experimental1\lib\net5.0-windows10.0.18362.0\Microsoft.WinUI.dll
+C:\Users\leque\.nuget\packages\microsoft.windowsappsdk.foundation\1.0.0-experimental1\runtimes\lib\native\arm64\Microsoft.WindowsAppSDK.Bootstrap.dll
+C:\Users\leque\.nuget\packages\microsoft.windowsappsdk.foundation\1.0.0-experimental1\runtimes\lib\native\x64\Microsoft.WindowsAppSDK.Bootstrap.dll
+C:\Users\leque\.nuget\packages\microsoft.windowsappsdk.foundation\1.0.0-experimental1\runtimes\lib\native\x86\Microsoft.WindowsAppSDK.Bootstrap.dll
+C:\Users\leque\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.26\lib\Microsoft.Windows.SDK.NET.dll
+C:\Users\leque\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.26\lib\WinRT.Runtime.dll
+C:\Users\leque\source\repos\One Lesson\One Lesson\One Lesson\bin\x86\Debug\net5.0-windows10.0.19041.0\One Lesson.deps.json
+C:\Users\leque\source\repos\One Lesson\One Lesson\One Lesson\bin\x86\Debug\net5.0-windows10.0.19041.0\One Lesson.runtimeconfig.dev.json
+C:\Users\leque\source\repos\One Lesson\One Lesson\One Lesson\obj\x86\Debug\net5.0-windows10.0.19041.0\App.xbf
+C:\Users\leque\source\repos\One Lesson\One Lesson\One Lesson\obj\x86\Debug\net5.0-windows10.0.19041.0\MainWindow.xbf
+C:\Users\leque\source\repos\One Lesson\One Lesson\One Lesson\obj\x86\Debug\net5.0-windows10.0.19041.0\apphost.exe
+C:\Users\leque\source\repos\One Lesson\One Lesson\One Lesson\bin\x86\Debug\net5.0-windows10.0.19041.0\One Lesson.runtimeconfig.json
+C:\Users\leque\source\repos\One Lesson\One Lesson\One Lesson\bin\x86\Debug\net5.0-windows10.0.19041.0\One Lesson.dll
+C:\Users\leque\source\repos\One Lesson\One Lesson\One Lesson\bin\x86\Debug\net5.0-windows10.0.19041.0\One Lesson.pdb

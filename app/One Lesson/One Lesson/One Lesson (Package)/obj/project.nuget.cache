@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "+gDmxu+5dHpq+iGSxKlHok9UG+w2yVd+GIehawJ7A/mrVQNfrt2jIE6XfLlZLGwbhxnjSLIsijVLlXtVaHk9XQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\leque\\source\\repos\\One Lesson\\One Lesson\\One Lesson (Package)\\One Lesson (Package).wapproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\leque\\.nuget\\packages\\microsoft.windowsappsdk\\1.0.0-experimental1\\microsoft.windowsappsdk.1.0.0-experimental1.nupkg.sha512",
+    "C:\\Users\\leque\\.nuget\\packages\\microsoft.windowsappsdk.dwrite\\1.0.0-experimental1\\microsoft.windowsappsdk.dwrite.1.0.0-experimental1.nupkg.sha512",
+    "C:\\Users\\leque\\.nuget\\packages\\microsoft.windowsappsdk.foundation\\1.0.0-experimental1\\microsoft.windowsappsdk.foundation.1.0.0-experimental1.nupkg.sha512",
+    "C:\\Users\\leque\\.nuget\\packages\\microsoft.windowsappsdk.interactiveexperiences\\1.0.0-experimental1\\microsoft.windowsappsdk.interactiveexperiences.1.0.0-experimental1.nupkg.sha512",
+    "C:\\Users\\leque\\.nuget\\packages\\microsoft.windowsappsdk.winui\\1.0.0-experimental1\\microsoft.windowsappsdk.winui.1.0.0-experimental1.nupkg.sha512"
+  ],
+  "logs": []
+}

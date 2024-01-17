@@ -1,0 +1,37 @@
+body {
+	--accentuation-main: #4b86a2;
+	--accentuation-secondary: #a24b86;
+	--accentuation-tertiary: #86a24b;
+	--accentuation-disabled: #7d7d7d;
+	--background-light: #ffffff;
+	--background-dark: #000000;
+	--layer-1-light: #d6d6d6;
+	--layer-1-dark: #181818;
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header.header {
+	height: 50px;
+	width: 100vw;
+	background-color: var();
+	display: flex;
+}
+
+div.header-link {
+	height: auto;
+	padding: 8px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	transition-duration: 100ms;
+}
+
+div.header-link.header-animate:hover {
+	background-color: #ffffff20;
+}
+
+img.header-logo {
+	height: 100%;
+}
