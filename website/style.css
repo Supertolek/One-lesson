@@ -6,7 +6,12 @@ body {
 	--accentuation-disabled: #7d7d7d;
 	--background: #111111;
 	--layer-1: #1b1b1b;
+	--opposite: #ffffff;
+	--hover: #404040;
+	--accentuation-main-lighter: #6E9EB4;
 	--text: #eeeeee;
+	/* Position variables */
+	--header-height: 70px;
 	/* Display */
 	margin: 0px;
 	background-color: var(--background);
@@ -19,14 +24,15 @@ body {
 	body {
 		--background: #ffffff;
 		--layer-1: #d6d6d6;
+		--opposite: #000;
+		--opposite20: #00000020;
 		--text: #000;
 	}
 }
 
 header.header {
-	height: 70px;
+	height: var(--header-height);
 	width: 100vw;
-	background-color: var(--layer-1);
 	display: flex;
 }
 
@@ -44,15 +50,62 @@ div.header-link {
 }
 
 div.header-link.header-animate:hover {
-	background-color: #ffffff20;
+	background-color: var(--lighter);
 }
 
 div.header-download {
-	background-color: var(--accentuation-main);
 	position: relative;
 	margin-left: auto;
 }
 
+div#header-download:hover {
+	background-color: var(--accentuation-main-lighter);
+}
+
 img.header-logo {
 	height: 100%;
+}
+
+div.main-section {
+	height: calc(100vh - var(--header-height));
+	background-color: var(--background);
+	display: flex;
+	justify-content: center;
+}
+
+div.main-section-center {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+div.body-download-container {
+	display: flex;
+	justify-content: center;
+}
+
+div.body-download {
+	text-align: center;
+	font-size: 1.3em;
+	padding: 32px;
+}
+
+.bg-blue {
+	background-color: var(--accentuation-main);
+}
+
+.bg-pink {
+	background-color: var(--accentuation-tertiary);
+}
+
+.bg-green {
+	background-color: var(--accentuation-tertiary);
+}
+
+.bg-bg {
+	background-color: var(--background);
+}
+
+.bg-layer-1 {
+	background-color: var(--layer-1);
 }
