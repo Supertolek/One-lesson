@@ -15,7 +15,9 @@ I might explain later, right now i don't have that much time.
 [One Lesson](https://supertolek.github.io) is for students who want a pretty simple, yet complete application for writing their notes or their lessons.
 
 ## Credits
-Credits to:
+Credits to:  
+| Username / name                             | Reason                     |
+|---------------------------------------------|----------------------------|
 | [Aywen](https://youtube.com/@AywenVideos)   | For the initial idea       |
 | [Supertolek](https://github.com/Supertolek) | For coding the application |
 | LMC                                         | Later...                   |
