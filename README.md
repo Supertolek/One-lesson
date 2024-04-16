@@ -16,7 +16,7 @@ I might explain later, right now i don't have that much time.
 
 ## For who?
 
-[One Lesson](https://supertolek.github.io) is for students who want a pretty simple, yet complete application for writing their notes or their lessons.
+[One Lesson](https://github.com/Supertolek/One-lesson) is for students who want a pretty simple, yet complete application for writing their notes or their lessons.
 
 ## Credits
 
