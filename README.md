@@ -27,6 +27,8 @@ Credits to:
 | [Supertolek](https://github.com/Supertolek) | For coding the application |
 | LMC                                         | Later...                   |
 
+---
+
 ## Features / Bug fixes comming
 
 | State | Type | Description |
@@ -45,7 +47,7 @@ Credits to:
 
 ## Bugs
 
-### Fix saving as .rtf `olb.0001`
+### 🟩 Fix saving as .rtf `olb.0001`
 
 **Description:**  
 When saving a file with .rtf extension, the file won't be saved.
@@ -53,12 +55,12 @@ When saving a file with .rtf extension, the file won't be saved.
 **Patch:**  
 I check if the file extension is correct, but only .olf is considered as correct.
 
-### Fix colors when saved from dark mode `olb.0002`
+### 🟥 Fix colors when saved from dark mode `olb.0002`
 
 **Description:**  
 When saving using One Lesson with dark mode, the text is saved as white.
 
-### 🌐 Issues between tabview / titlebar `olb.0003`
+### 🟩 🌐 Issues between tabview / titlebar `olb.0003`
 
 **Description:**  
 Cannot interact with the tab bar because of the titlebar.
@@ -66,18 +68,48 @@ Cannot interact with the tab bar because of the titlebar.
 **Patch:**
 Using the Footer only as titlebar. (cannot longer interact with the footer, but there is nothing on it to interact with)
 
+MainWindow.xaml:
+```xaml
+<TabView>
+    <TabView.TabStripHeader>
+        <Grid x:Name="ShellTitlebarInset" Background="Transparent"/>
+    </TabView.TabStripHeader>
+    <TabView.TabStripFooter>
+        <Grid x:Name="CustomDragRegion" Background="Transparent" MinWidth="188"/>
+    </TabView.TabStripFooter>
+    <...>
+    </...>
+</TabView>
+```
+MainWindow.xaml.cs:
+```cs
+namespace One_Lesson
+{
+    public sealed partial class MainWindow : Window
+    {
+        public MainWindow()
+        {
+            InitializeComponent();
+            SetTitleBar(CustomDragRegion);
+            ExtendsContentIntoTitleBar = true;
+        }
+        ...
+    }
+}
+```
+
 🌐: from stack overflow
 
 ## Deploy
 
-### Create website `old.001`
+### 🟥 Create website `old.001`
 
 **Description:**
 - 🟥 Add a download source `old.001.1`
 - 🟥 Add pages `old.001.2`
 - 🟥 Make it reesponsive `old.001.3`
 
-### Create installer `old.002`
+### 🟥 Create installer `old.002`
 
 **Description:**
 - 🟥 Add a download source `old.001.1`
@@ -85,7 +117,7 @@ Using the Footer only as titlebar. (cannot longer interact with the footer, but 
 
 ## Features
 
-### Add icon to .olf files `ola.0001`
+### 🟩 Add icon to .olf files `ola.0001`
 
 **Description:**  
 The application have icons, but not the files.
@@ -93,22 +125,41 @@ The application have icons, but not the files.
 **Patch:**  
 I added more images using the toll included in visual studio.
 
-### Text formating options `ola.0002`
+### 🟥 Text formating options `ola.0002`
 
 **Description:**  
 Add more options for formating text (eg. color, size...)
 
-### Tabs system `ola.0003`
+### 🟥 Tabs system `ola.0003`
 
 **Description:**  
 Make the tab bar usefull (store the document, title etc... in a variable in order to re-open the document when you open the tab)
 
-### 🌐 Keyboard accelerators `ola.0004`
+### 🟩 🌐 Keyboard accelerators `ola.0004`
 
 **Description:**  
 Add keyboard shortcuts to increase the productivity.
 
 **Patch:**  
 Add functions for the keyboard shortcut and add them into the element.
+
+MainWindow.xaml:
+```xaml
+<MenuBar x:Name="MenuBarContainer">
+    <MenuBarItem>
+        <MenuFlyoutItem>
+            <MenuFlyoutItem.KeyboardAccelerators>
+                <KeyboardAccelerator Modifiers="Control" Key="O"/>
+            </MenuFlyoutItem.KeyboardAccelerators>
+        </MenuFlyoutItem>
+        <MenuFlyoutItem>
+            <MenuFlyoutItem.KeyboardAccelerators>
+                <KeyboardAccelerator Modifiers="Control" Key="S"/>
+            </MenuFlyoutItem.KeyboardAccelerators>
+        </MenuFlyoutItem>
+    </MenuBarItem>
+    <...></...>
+</MenuBar>
+```
 
 🌐: winui 3 gallery
