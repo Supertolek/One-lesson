@@ -2,7 +2,9 @@
 
 One Lesson is an app to store and edit course sheets.  
 [One Lesson WebSite](https://supertolek.github.io/One-lesson/)  
-I will soon release a functionnal version of the One Lesson application.
+I will soon release a functionnal version of the One Lesson application.  
+[bug report / recommend features / show your hype](https://forms.gle/s9gmoJmgTwSaUUyA9)  
+My email adress: supertolekmc@gmail.com
 
 ## Why?
 
