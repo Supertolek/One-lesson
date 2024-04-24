@@ -1,0 +1,31 @@
+:root {
+	--accentuation-main: #4b86a2;
+	--accentuation-secondary: #a24b86;
+	--accentuation-tertiary: #86a24b;
+	--accentuation-disabled: #7d7d7d;
+	--background: #111111;
+	--layer-1: #1b1b1b;
+	--layer-2: #303030;
+	--border: #5f5f5f;
+	--opposite: #ffffff;
+	--hover: #404040;
+	--accentuation-main-lighter: #6E9EB4;
+	--text: #eeeeee;
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		--background: #ffffff;
+		--layer-1: #d6d6d6;
+		--layer-2: #bbbbbb;
+		--border: #8a8a8a;
+		--opposite: #000;
+		--opposite20: #00000020;
+		--text: #000;
+	}
+}
+
+body {
+	margin: 0px;
+	background-color: var(--background);
+}
