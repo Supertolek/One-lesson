@@ -45,6 +45,7 @@ Credits to:
 | 🟥 Unsolved | 🟢 Feature | Text formating options `ola.0002` |
 | 🟥 Unsolved | 🟢 Feature | Tabs system `ola.0003` |
 | 🟩 Solved   | 🟢 Feature | 🌐 Keyboard accelerators `ola.0004` |
+| 🟥 Unsolved | 🟢 Feature | Pseudo-ai for multiple usages `ola.0005` |
 
 🌐: used an answer from internet (stack overflow for example)
 
@@ -166,3 +167,26 @@ MainWindow.xaml:
 ```
 
 🌐: winui 3 gallery
+
+### 🟥 Pseudo-ai for multiple usages `ola.0005`
+
+**Description:**  
+I will try to create a language parser. I will use it to resume automatically the lesson, create quiz to memorize the lesson etc...  
+It might take a while, so if you have an idea, tell me. (and I already know [NLTK](https://www.nltk.org), but it doesn't work as i want and have no implementation for winui at my knowledge)
+
+## Contact
+
+### Dev (main)
+
+[✉️ Email : supertolekmc@gmail.com](mailto:supertolekmc@gmail.com)  
+🟣 Discord : @supertolek
+
+### Personal (if urgent)
+
+⚠️ Please use this email adress only with an important reason.  
+[✉️ Email : lequereth@gmail.com](mailto:lequereth@gmail.com)  
+🟣 Discord : @thomaslequere
+
+### Discord server
+
+[🟣 Discord server (invitation id: FZx4c528jY)](https://discord.gg/FZx4c528jY)
