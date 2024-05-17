@@ -183,7 +183,7 @@ It might take a while, so if you have an idea, tell me. (and I already know [NLT
 
 ### Personal (if urgent)
 
-⚠️ Please use this email adress only with an important reason.  
+**⚠️ Please use this email adress only with an important reason.**  
 [✉️ Email : lequereth@gmail.com](mailto:lequereth@gmail.com)  
 🟣 Discord : @thomaslequere
 
