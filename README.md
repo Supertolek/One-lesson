@@ -46,6 +46,7 @@ Credits to:
 | 🟥 Unsolved | 🟢 Feature | Tabs system `ola.0003` |
 | 🟩 Solved   | 🟢 Feature | 🌐 Keyboard accelerators `ola.0004` |
 | 🟥 Unsolved | 🟢 Feature | Pseudo-ai for multiple usages `ola.0005` |
+| 🟥 Unsolved | 🟢 Feature | A menu to change keybinds `ola.0006` |
 
 🌐: used an answer from internet (stack overflow for example)
 
