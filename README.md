@@ -39,6 +39,7 @@ Credits to:
 | 🟩 Solved   | 🔴 Bug     | Fix saving as .rtf `olb.0001` |
 | 🟥 Unsolved | 🔴 Bug     | Fix colors when saved from dark mode `olb.0002` |
 | 🟩 Solved   | 🔴 Bug     | 🌐 Issues between tabview / titlebar `olb.0003` |
+| 🟩 Solved   | 🔴 Bug     | RichEditBox height doesn't automaticaly adapt when opening a file `olb.0004` |
 | 🟥 Unsolved | 🔵 Deploy  | Create website `old.001` |
 | 🟥 Unsolved | 🔵 Deploy  | Create installer `old.002` |
 | 🟩 Solved   | 🟢 Feature | Add icon to .olf files `ola.0001` |
